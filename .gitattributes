@@ -1,0 +1,18 @@
+# Force LF line endings for code files
+*.py text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+*.txt text eol=lf
+
+# Add other file types as needed
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+
+# For binary files, prevent any line-ending conversion
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+*.exe binary
